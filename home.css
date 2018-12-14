@@ -121,7 +121,7 @@ text-decoration: none;
           display: flex;
           flex-direction: column;
           align-items: center;
-          height: auto;
+          height: 100vh;
           background: #6c9ea0bf;
           margin-top: -5px;
           justify-content: center;

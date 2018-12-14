@@ -1,0 +1,72 @@
+.chart-bar{
+  display: inline-block;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+
+.chart-donut{
+  position: relative;
+  display: block;
+  display: -webkit-flex;
+  display: flex;
+}
+.chart-donut canvas{
+}
+.donut-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.donut-title{
+  font-size: 60px;
+  font-family: "D-DIN", sans-serif;
+  color: black;
+}
+.donut-text{
+  font-size: 24px;
+  -webkit-margin-start: 30px;
+  -webkit-margin-end: 30px;
+  width: 120px;
+  font-family: "D-DIN", sans-serif;
+  color: black;
+  
+}
+
+
+.chart-vertical-bar{
+  position: relative;
+  display: block;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.vertical-bar-item{
+  display: inline-block;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  position: absolute;
+}
+.vertical-bar-item-title{
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  font-family: Trueno, sans-serif;
+}
+.chart-horizontal-bar{
+  position: relative;
+  display: block;
+  display: -webkit-flex;
+  display: flex;
+  border: 1px #fff solid;
+  box-sizing: content-box;
+}
+.horizontal-bar-item{
+  position: absolute;
+  top: -1px;
+}

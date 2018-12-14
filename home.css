@@ -1,0 +1,921 @@
+
+html,body{
+  margin: 0;
+}
+.canvass{
+  width: 30%;
+}
+.caixaInformacoa{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 30%;
+    z-index: 5000;
+    height: 100%;
+    position: fixed;
+    background-image: linear-gradient(0deg, rgb(175, 77, 175), #2ee892);
+}
+
+.caixaInformacoa .foto {
+ width: 120px;
+ height: auto;
+ border-radius:60px;
+ border: 3px solid black;
+ margin: 3px;
+}
+
+.redeSocial a {
+  margin-top:  20px;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.caixaInformacoa li {
+list-style: none;
+margin: 8px;
+font-size: 25px;
+}
+
+.caixa{
+text-align: center;
+margin: 18px;
+display: flex;
+flex-direction: column;
+font-size: 25px;
+}
+
+.caixa a{
+margin: 5px;
+color: black;
+text-decoration: none;
+}
+
+.conteudo{
+	position: absolute;
+	right: 0px;
+	width: 70%;
+	overflow: hidden;
+}
+
+
+.banner-box{
+	position: relative;
+}
+
+.banner{
+  margin-bottom: 0px;
+  height: 100vh;
+  z-index: 100;
+  margin-right: 0px;
+}
+
+.banner-titulo{
+        z-index: 4000;
+      	width: 100%;
+      	height: 100%;
+      	display: flex;
+      	justify-content: center;
+      	align-items: center;
+      	position: absolute;
+      	top: 0px;
+      	left: 0px;
+}
+
+.banner-titulo h1{
+        line-height: 131px;
+        font-family: "Sedgwick Ave";
+        margin-top: 0;
+        z-index: 200;
+        font-size: 102px;
+        text-align: center;
+}
+
+.banner-arrow-box{
+        position: absolute;
+   		  width: 100%;
+        bottom: 32px;
+        z-index: 200;
+        display: flex;
+        justify-content: center;
+        z-index: 4900;
+      }
+
+
+.botao{
+          padding: 15px 48px;
+          border: 3px solid #956aa8;
+          text-decoration: none;
+          border-radius: 50px;
+          color:#fff;
+          background: #956aa8;
+          font-size: 16px;
+          z-index: 2000;
+          margin-top: 64px;
+          width: auto;
+        }
+
+
+
+        .Historia{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100vh;
+          background: #6c9ea0bf;
+          margin-top: -5px;
+          justify-content: center;
+
+        }
+
+        .Historia h2{
+          font-family: "Open Sans";
+        }
+
+        .curriculum{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100vh;
+          margin-top: 44px;
+          height: 100vh;
+          margin-top: 44px;
+        }
+
+        .curriculum h1{
+          display: flex;
+          justify-content: center;
+          font-family: "Open Sans";
+        }
+
+        .box-cursos{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+        }
+
+        .cursos{
+          display: flex;
+          align-items: center;
+          margin: 10px;
+        }
+
+        .cursos-ico{
+          margin-right: 8px;
+          align-items: center;
+        }
+
+        .caixa-proj{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px 10px #aaa;
+        border-radius: 6px;
+        }
+
+                  .caixa-proj-img{
+                    width: 300px;
+                    height: 400px;
+                    flex-grow: 1;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+
+
+                  }
+                  .caixa-proj-info{
+                    width: 100%;
+                    height: 80px;
+                    flex-grow: 0;
+                    background-color: #fff;
+                  }
+                  .caixa-proj-text{
+
+
+                  }
+                  .caixa-proj-titulo{
+                    font-size: 20px;
+                    margin-top: 8px;
+                    margin-left: 20px;
+                  }
+                  .caixa-proj-desc{
+                    font-size: 20px;
+                    margin-top: -15px;
+                    margin-left: 20px;
+                  }
+                  .caixa-proj-buttum{
+                    text-decoration: none;
+                    float: right;
+                    margin-top: -35px;
+                    color: black;
+                    color: #fff;
+                    background: red;
+                    border: 40px;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-right: 5px;
+                    margin-top:-54px;
+
+                  }
+
+
+
+
+    .text-histora {
+        margin: 5px;
+        line-height: 27px;
+}
+
+.text-histora p {
+  font-size: 18px;
+  font-family: "Open Sansa";
+  line-height: 27px;
+  margin-left: auto;
+  text-align: justify;
+  padding: 12px 19px;
+}
+
+.curriculum{
+    background: #fff;
+    margin-top: -2px;
+}
+.trabalho{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  margin-top: 44px;
+  height: 100vh;
+  margin-top: 44px;
+  background:#acacac91;
+
+}
+
+/*-------------------------------contato------------------*/
+        /* Parte Contato */
+        .section-contato{
+          height: calc(100vh - 60px + 1px);
+          display: flex;
+          flex-direction: column;
+          background-color: #f0f0f0;
+        }
+        .news-titulo{
+          margin: 0px;
+          flex-grow: 0;
+        }
+        .contato-box{
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .news-form{
+          display: flex;
+          margin-top: 64px;
+        }
+        .input{
+          padding: 8px 16px;
+          font-size: 14px;
+          border: 1px solid #999;
+          border-radius: 2px;
+        }
+        .input:focus{
+          outline-color: #333;
+        }
+        .news-input{
+          flex-grow: 1;
+          margin-right: 8px;
+        }
+        .button{
+          background-color: #333;
+          color: #fff;
+          text-decoration: none;
+          padding: 8px 16px;
+          border-radius: 2px;
+          font-size: 14px;
+        }
+        .text-min{
+          margin: 0px;
+          margin-top: 8px;
+          font-size: 14px;
+          font-style: italic;
+          text-align: center;
+        }
+        .social-item-box{
+          display: flex;
+          justify-content: center;
+        }
+        .social-item{
+          color: #333;
+          font-size: 64px;
+          line-height: 64px;
+          margin-left: 2px;
+          margin-right: 16px;
+        }
+
+
+        .section-contato{
+          height: auto;
+        }
+        .contato-box{
+          flex-grow: 1;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 100%;
+          align-items: flex-end;
+          margin-top: 48px;
+        }
+        .news-box{
+          margin-left: 32px;
+        }
+        .news-form {
+          display: flex;
+          margin-top: 0px;
+        }
+        .text-min{
+          margin-top: 4px;
+        }
+        .text-min-alt{
+          margin-top: 9px;
+        }
+
+
+        .section-contato{
+          height: calc(100vh);
+        }
+        .news-titulo{
+          text-align: center;
+          margin-top: 40px;
+          font-size: 42px;
+          flex-grow: 0;
+        }
+        .contato-box{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          align-items: center;
+        }
+        .news-form{
+          display: flex;
+          align-items: center;
+          margin-top: 0px;
+          width: 400px;
+        }
+        .news-box{
+          margin-top: 76px;
+        }
+        .input{
+          padding: 12px 24px;
+          font-size: 16px;
+          border: 1px solid #999;
+          border-radius: 2px;
+        }
+        .input:focus{
+          outline-color: #333;
+        }
+        .news-input{
+          flex-grow: 1;
+          margin-right: 8px;
+        }
+        .button{
+          background-color: #333;
+          color: #fff;
+          text-decoration: none;
+          padding: 11px 24px;
+          border-radius: 2px;
+          font-size: 16px;
+        }
+        .text-min{
+          margin: 0px;
+          margin-top: 24px;
+          font-size: 18px;
+          font-style: italic;
+          text-align: center;
+        }
+        .text-min-alt{
+          margin-top: 32px;
+        }
+        .social-box{
+          width: 500px;
+        }
+        .social-item-box{
+          display: flex;
+          justify-content: center;
+        }
+        .social-item{
+          color: #333;
+          font-size: 128px;
+          line-height: 64px;
+          margin-left: 32px;
+          margin-right: 32px;
+        }
+
+
+
+        .ancora{
+          display: block;
+          height: 0px;
+          color: rgba(255, 255, 255, 0);
+          position: relative;
+        }
+
+
+
+        /* Box modal */
+        .box-modal{
+          position: fixed;
+          top: 0px;
+          RIGHT: 0px;
+          width: 70%;
+          height: 100vh;
+          background-color: rgba(255, 255, 255, 0.9);
+          z-index: 1100;
+          display: flex;
+          display: none;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+        }
+        .modal-close{
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100vh;
+        }
+        .modal{
+          width: 66%;
+          background-color: #fff;
+          padding: 32px;
+          display: flex;
+          flex-direction: column;
+          border-radius: 4px;
+          box-shadow: 0px 0px 20px 1px #333;
+          position: relative;
+        }
+        .modal-close-ico{
+          position: absolute;
+          top: 8px;
+          right: 12px;
+          color: #999;
+        }
+        .modal-titulo{
+          font-size: 16px;
+          margin: 0px;
+          text-align: center;
+        }
+        .box-inputs{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin-top: 32px;
+          margin-bottom: 16px;
+        }
+        .modal-input{
+          margin-bottom: 8px;
+        }
+        .modal-button{
+          display: block;
+          text-align: center;
+        }
+        .menucel{
+          display: none;
+        }
+
+
+
+        .graf-scroll{
+              display: flex;
+              overflow: auto;
+              width: auto;
+              height: 100%;
+              align-items: center;
+              padding: 0 32px;
+              margin-top: 60px;
+
+        }
+
+        .trabalho{
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100vh;
+          margin-top: 44px;
+          height: 100vh;
+          margin-top: 44px;
+          background:#acacac91;
+        }
+        .trabalho-scroll{
+              display: flex;
+              overflow: auto;
+              width: auto;
+              height: 580px;
+              align-items: center;
+              padding: 0 32px;
+        }
+        .transparent{
+          display: none;
+
+        }
+
+        .email{
+          display: flex;
+          align-items: center;
+        }
+        .email-ico{
+          margin-right: 16px;
+        }
+        .proj1{
+          margin-left: 16px;
+          margin-right: 16px;
+        }
+        .proj2{
+          margin-left: 16px;
+          margin-right: 16px;
+          height: 480px;
+        }
+        .graf h1{
+          display: flex;
+          justify-content: center;
+          font-family: "Open Sans";
+          margin-top: -290px;
+
+        }
+        .trabalho p {
+
+          font-size: 30px;
+          font-family: "Open Sans";
+          font-weight: 700;
+        }
+        .graH{
+              flex-shrink: 0;
+              margin-left: 16px;
+              margin-right: 16px;
+        }
+        .graC{
+          margin-left: 16px;
+          margin-right: 16px;
+
+        }
+        .graJ{
+          margin-left: 16px;
+          margin-right: 16px;
+
+        }
+        .graP{
+
+          margin-left: 16px;
+          margin-right: 16px;
+          padding: 0 8px;
+
+        }
+
+
+
+        /*---------------------------celular-----------------------------*/
+        @media (max-width: 992px) {
+
+          body{
+            height: 100%;
+            overflow-x: hidden;
+            margin-right: 0px;
+            font-family: "Open Sans";
+
+          }
+
+          .graf h1{
+            display: flex;
+            justify-content: center;
+            font-family: "Open Sans";
+            margin-top: 53px;
+            }
+
+        .caixaInformacoa{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: blue;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background-image: linear-gradient(0deg, rgb(175, 77, 175), #2ee892);
+                transform: translateX(-93.8%);
+                transition: transform 400ms;
+          }
+
+        .caixaInformacoa-open{
+          transform: translateX(0);
+
+        }
+        /*---------------------------menu icon---------------------*/
+        .icon_abrir {
+          display: none;
+        }
+        /*------------------------foto--------------*/
+        .caixaInformacoa .foto {
+         width: 120px;
+         height: auto;
+         border-radius:60px;
+         border: 3px solid black;
+         margin: 3px;
+         display: block;
+
+        }
+
+
+          .caixa{
+          text-align: center;
+          margin: 18px;
+          display: flex;
+          flex-direction: column;
+          font-size: 25px;
+          }
+          .conteudo{
+          	position: absolute;
+          	right: 0px;
+            width: 94%;
+          	overflow: hidden;
+          }
+
+          .menu-item{
+
+          }
+          .social-item{
+            font-size: 75px;
+          }
+          .social-item-box{
+          }
+
+          .menucel{
+            margin-left: -11px;
+            background-color: #fff;
+            margin-top: 0px;
+            font-size: 20px;
+            height: 85px;
+            width: 94%;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index: 10000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+
+
+
+          }
+          .menucel i{
+
+            font-size: 45px;
+            flex-grow: 0;
+            padding: 10px;
+
+
+          }
+          .menucel p{
+            font-size: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+          }
+          .circo{
+            position: fixed;
+            top: 22px;
+            left: 31px;
+            background-color: #fff;
+            display: block;
+            /* display: flex; */
+            /* justify-content: center; */
+            padding: 0px 10px;
+            border-radius: 50%;
+          }
+/*----------------------------GRAFICO----------------------------------*/
+          .curriculum{
+            overflow: hidden;
+            background: #fff;
+            margin-top: -2px;
+            display: flex;
+            width: auto;
+            height: 100%;
+            align-items: center;
+          }
+          .facul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+
+          .graf{
+                overflow: scroll;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+          }
+          .graf-scroll{
+                display: flex;
+                overflow: auto;
+                width: auto;
+                height: 100%;
+                align-items: center;
+                padding: 0 32px;
+                margin-top: 60px;
+
+          }
+
+
+          .graH{
+                flex-shrink: 0;
+                margin-left: 16px;
+                margin-right: 16px;
+          }
+          .graC{
+            margin-left: 16px;
+            margin-right: 16px;
+
+          }
+          .graJ{
+            margin-left: 16px;
+            margin-right: 16px;
+            padding: 0 8px;
+
+          }
+          .graP{
+
+            margin-left: 16px;
+            margin-right: 16px;
+            padding: 0 8px;
+
+          }
+          /*---------------------------contato--------------------*/
+          .text-min {
+            margin: 0px;
+            margin-top: 24px;
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            }
+            .social-box {
+                width: 500px;
+            }
+
+            .text-min {
+                margin: 0px;
+                margin-top: 24px;
+                font-size: 18px;
+                font-style: italic;
+                text-align: center;
+            }
+            .news-form{
+              flex-direction: column;
+            }
+            .contato-box{
+
+            }
+          .social-item{
+          color: #333;
+          line-height: 64px;
+          margin-left: 16px;
+          margin-right: 16px;
+          }
+
+/*---------------------------------PROJETO-----------------*/
+          .trabalho{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin-top: 44px;
+            height: 100vh;
+            margin-top: 44px;
+            background:#acacac91;
+          }
+          .trabalho p {
+
+            font-size: 30px;
+            font-family: "Open Sans";
+            font-weight: 700;
+          }
+
+          .trabalhof{
+                overflow: scroll;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+          }
+          .trabalho-scroll{
+                display: flex;
+                overflow: auto;
+                width: auto;
+                height: 580px;
+                align-items: center;
+                padding: 0 32px;
+          }
+          .transparent{
+            display: block;
+            margin-left: 32px;
+            opacity:0;
+
+          }
+
+          .proj1{
+            margin-left: 16px;
+            margin-right: 16px;
+
+
+          }
+          .proj2{
+            margin-left: 16px;
+            margin-right: 16px;
+            height: 480px;
+
+
+          }
+/*-----------------------------proje----------------------------------------------*/
+          .caixa-proj{
+            width: 300px;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 10px 10px #aaa;
+            border-radius: 6px;
+          }
+          .caixa-proj-img{
+            width: 300px;
+            height: 400px;
+            flex-grow: 1;
+          }
+          .caixa-proj-info{
+            width: 100%;
+            height: 80px;
+            flex-grow: 0;
+            background-color: #fff;
+          }
+          .caixa-proj-text{
+
+
+          }
+          .caixa-proj-titulo{
+            font-size: 20px;
+            margin-top: 8px;
+            margin-left: 20px;
+          }
+          .caixa-proj-desc{
+            font-size: 20px;
+            margin-top: -15px;
+            margin-left: 20px;
+            color: #605b5b;
+          }
+          .caixa-proj-buttum{
+            text-decoration: none;
+            margin-top: -55px;
+            color: #fff;
+            background: red;
+             border: 40px;
+             border-radius: 5px;
+             padding: 10px;
+             margin-right: 5px;
+
+
+          }
+
+
+/*-------------------------box modal----------------------*/
+.box-modal {
+    position: fixed;
+    top: 0px;
+    RIGHT: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 100000;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+}
+.email-ico{
+  padding: 2px 4px;
+  margin-left: -25px;
+}
+
+.donut-title{
+  font-size: 60px;
+  font-family: "Raleway";
+  color: black;
+}
+            /*----------icon------------*/

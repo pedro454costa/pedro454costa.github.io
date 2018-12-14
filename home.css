@@ -932,4 +932,15 @@ text-decoration: none;
   font-family: "Raleway";
   color: black;
 }
+
+.Historia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: #6c9ea0bf;
+  margin-top: -5px;
+  justify-content: center;
+
+}
             /*----------icon------------*/

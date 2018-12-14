@@ -17,7 +17,6 @@ html,body{
     position: fixed;
     background-image: linear-gradient(0deg, rgb(175, 77, 175), #2ee892);
 }
-
 .caixaInformacoa .foto {
  width: 120px;
  height: auto;
@@ -84,11 +83,11 @@ text-decoration: none;
 }
 
 .banner-titulo h1{
-        line-height: 131px;
+        line-height: 106px;
         font-family: "Sedgwick Ave";
         margin-top: 0;
         z-index: 200;
-        font-size: 102px;
+        font-size: 73px;
         text-align: center;
 }
 
@@ -122,7 +121,7 @@ text-decoration: none;
           display: flex;
           flex-direction: column;
           align-items: center;
-          height: 100vh;
+          height: auto;
           background: #6c9ea0bf;
           margin-top: -5px;
           justify-content: center;
@@ -247,7 +246,6 @@ text-decoration: none;
   align-items: center;
   height: 100vh;
   margin-top: 44px;
-  height: 100vh;
   margin-top: 44px;
   background:#acacac91;
 
@@ -588,6 +586,13 @@ text-decoration: none;
 
           }
 
+          .curriculum h1{
+            display: flex;
+            justify-content: center;
+            font-family: "Open Sans";
+            text-align: center;
+          }
+
           .graf h1{
             display: flex;
             justify-content: center;
@@ -625,6 +630,7 @@ text-decoration: none;
          border: 3px solid black;
          margin: 3px;
          display: block;
+         margin-top: 50px;
 
         }
 
@@ -680,11 +686,13 @@ text-decoration: none;
 
           }
           .menucel p{
-            font-size: 42px;
+            font-size: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-grow: 1;
+            margin-left: 32px;
+
           }
           .circo{
             position: fixed;
@@ -746,7 +754,6 @@ text-decoration: none;
           .graJ{
             margin-left: 16px;
             margin-right: 16px;
-            padding: 0 8px;
 
           }
           .graP{
@@ -794,9 +801,8 @@ text-decoration: none;
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 100vh;
             margin-top: 44px;
-            height: 100vh;
+            height: auto;
             margin-top: 44px;
             background:#acacac91;
           }
@@ -909,8 +915,16 @@ text-decoration: none;
   align-items: center;
 }
 .email-ico{
-  padding: 2px 4px;
-  margin-left: -25px;
+  padding: 0px 4px;
+  margin-left: -28px;
+  width: 31px;
+}
+.email1{
+  margin-left: -9px;
+}
+.email2{
+    margin-left: -14px;
+
 }
 
 .donut-title{

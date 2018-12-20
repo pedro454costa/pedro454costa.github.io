@@ -502,9 +502,8 @@ text-decoration: none;
           display: flex;
           flex-direction: column;
           align-items: center;
-          height: 100vh;
           margin-top: 44px;
-          height: 100vh;
+          height: 100%;
           margin-top: 44px;
           background:#acacac91;
         }

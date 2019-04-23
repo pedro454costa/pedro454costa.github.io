@@ -483,9 +483,11 @@ text-decoration: none;
         .menucel{
           display: none;
         }
-
-
-
+	
+	.graf{
+          margin-top: 40px;
+        }
+	
         .graf-scroll{
               display: flex;
               overflow: auto;

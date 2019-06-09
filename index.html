@@ -116,13 +116,13 @@
       </div>
 
       <div class="caixa-proj prj2">
-        <img class="caixa-proj-img" src="photografia.jpg " alt="">
+        <img class="caixa-proj-img" src="raf.fotos.png" alt="">
         <div class="caixa-proj-info">
           <div class="caixa-proj-text">
             <h2 class="caixa-proj-titulo">Raffa Photos</h2>
             <h3 class="caixa-proj-desc">Web Site</h3>
           </div>
-          <a class="caixa-proj-buttum" href="raffa fotos/index.html">Abrir</a>
+          <a class="caixa-proj-buttum" href="file:///C:/Users/pedro/OneDrive/%C3%81rea%20de%20Trabalho/Pedro%20Costa/Novo%20site/index.html">Abrir</a>
         </div>
       </div>
 
@@ -190,9 +190,6 @@
             });
         });
     });
-
-
-
     //Sobre o modal
     var boxModal = document.getElementById('box-modal');
     boxModal.addEventListener('touchmove', function(e) {
@@ -208,7 +205,6 @@
       e.preventDefault();
       closeModal();
     }, false);
-
     function closeModal(){
       var modal = document.getElementById('box-modal');
       modal.style.display = "none";
@@ -217,9 +213,6 @@
       var modal = document.getElementById('box-modal');
       modal.style.display = "flex";
     }
-
-
-
 /*-------------meno celular---------------*/
     menuAberto = false;
     function alternarMenu(){
@@ -239,7 +232,6 @@
       menuAberto = !menuAberto;
       return false;
     }
-
     function fecharMenu(){
       var links = document.getElementById('caixaInformacoa');
       var menucel = document.getElementById('menucel');
@@ -250,14 +242,11 @@
       menuAberto = false;
       return false;
     }
-
-
     var caixaInformacoa = document.getElementById('caixaInformacoa');
     caixaInformacoa.addEventListener('scroll', function(e) {
       e.preventDefault();
       alert("OI");
     }, false);
-
     </script>
   </body>
 </html>
